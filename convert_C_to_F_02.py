@@ -21,12 +21,12 @@ print("1. Convert from Celsius to Fahrenheit\n2. Convert Fahrenheit to Celsius")
 answer = int(input("\nPlease choose from the above menu: "))
 
 if answer == 1:
-    C= float(input("Enter a temperature to convert: "))
-    F= C * 9/5 + 32
+    C = float(input("Enter a temperature to convert: "))
+    F = C * 9/5 + 32
     print(f"{C} degrees Celsius is {F} Fahrenheit.")
 elif answer == 2:
-    F= float(input("Enter a temperature to convert: "))
-    C= ( F - 32 ) * 5/9
+    F = float(input("Enter a temperature to convert: "))
+    C = ( F - 32 ) * 5/9
     print(f"{F} degrees Fahrenheit is {C} Celsius.")
 
 
